@@ -1,0 +1,17 @@
+# Local environments and Python artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Secrets, private data, downloaded model weights and generated results
+.env
+.env.*
+!.env.example
+models/
+datasets/private/
+benchmarks/results/
+*.gguf
+*.safetensors
+*.pt
+*.pth
